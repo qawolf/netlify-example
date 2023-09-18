@@ -1,0 +1,10 @@
+name: GraphQL Schema Check
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    environment: test
+    steps:
+      - uses: actions/checkout@v3
+      - name: Test
+        run: echo "TEST"
