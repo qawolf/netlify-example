@@ -72,7 +72,7 @@ export default function Home() {
       <header className={styles.header}>
         <a href="#top" className={styles.brand}>
           <WolfMark />
-          <span>QA Wolf</span>
+          <span>QOWolf</span>
         </a>
         <nav className={styles.nav}>
           <a href="#features">Features</a>
